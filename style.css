@@ -613,7 +613,7 @@ section {
     padding: 1.5rem;
   }
   header{
-    position: inherit
+    position: relative
 }
 
 @media (max-width: 500px) {
@@ -662,6 +662,6 @@ section {
     text-align: right;
   }
     header{
-    position: inherit
+    position: relative
 }
 }
