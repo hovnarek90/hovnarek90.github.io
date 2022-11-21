@@ -581,6 +581,9 @@ section {
 
 
 @media (max-width: 768px) {
+.heading{
+    width: 100%;
+  }
 
   #menu-bar {
     display: initial;
