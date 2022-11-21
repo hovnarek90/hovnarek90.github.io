@@ -582,7 +582,7 @@ section {
 
 @media (max-width: 768px) {
 .heading{
-    width: 100%;
+    width: 80%;
   }
 
   #menu-bar {
