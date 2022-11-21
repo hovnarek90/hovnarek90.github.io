@@ -612,6 +612,8 @@ section {
     margin: 1.5rem 0px;
     padding: 1.5rem;
   }
+  header{
+    position: inherit
 }
 
 @media (max-width: 500px) {
@@ -659,4 +661,7 @@ section {
     width: 45%;
     text-align: right;
   }
+    header{
+    position: inherit
+}
 }
