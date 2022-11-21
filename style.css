@@ -574,15 +574,17 @@ section {
   html {
     font-size: 55%;
   }
-  .heading{
-    width: 100%;
+ .heading{
+      font-size: 2.5rem;
+
   }
 }
 
 
 @media (max-width: 768px) {
 .heading{
-    width: 80%;
+      font-size: 2.5rem;
+
   }
 
   #menu-bar {
@@ -613,6 +615,11 @@ section {
 }
 
 @media (max-width: 500px) {
+  
+  .heading{
+      font-size: 2.5rem;
+
+  }
   .book .inner_book {
     flex-direction: column;
   }
