@@ -582,13 +582,12 @@ section {
   html {
     font-size: 55%;
   }
-  .heading{
+  .heading {
     width: 100%;
   }
 }
 
 @media (max-width: 768px) {
-
   #menu-bar {
     display: initial;
   }
@@ -616,52 +615,52 @@ section {
     margin: 1.5rem 0px;
     padding: 1.5rem;
   }
-  header{
-    position: relative
-}
+  header {
+    position: relative;
+  }
 
-@media (max-width: 500px) {
-  .book .inner_book {
-    flex-direction: column;
+  @media (max-width: 500px) {
+    .book .inner_book {
+      flex-direction: column;
+    }
+    .book .inner_book img,
+    .book .inner_book form {
+      width: 100%;
+    }
+    .packages .box-container {
+      flex-direction: column;
+    }
+    .packages .box-container .box {
+      width: 100%;
+    }
+    .services .box-container {
+      flex-direction: column;
+    }
+    .gallery .box-container {
+      flex-direction: column;
+    }
+    .gallery .box-container .box {
+      width: 100%;
+    }
+    .gallery .box-container .box .content h3 {
+      font-size: 3rem;
+    }
+    .gallery .box-container .box .content p {
+      font-size: 2rem;
+    }
+    .contact .inner-contact {
+      flex-direction: column;
+    }
+    .contact .inner-contact .image,
+    .contact .inner-contact form {
+      width: 100%;
+    }
+    .footer .inner-footer .box {
+      width: 45%;
+      text-align: right;
+    }
+    header {
+      position: relative;
+    }
   }
-  .book .inner_book img,
-  .book .inner_book form {
-    width: 100%;
-  }
-  .packages .box-container {
-    flex-direction: column;
-  }
-  .packages .box-container .box {
-    width: 100%;
-  }
-  .services .box-container {
-    flex-direction: column;
-  }
-  .gallery .box-container {
-    flex-direction: column;
-  }
-  .gallery .box-container .box {
-    width: 100%;
-  }
-  .gallery .box-container .box .content h3 {
-    font-size: 3rem;
-  }
-  .gallery .box-container .box .content p {
-    font-size: 2rem;
-  }
-  .contact .inner-contact {
-    flex-direction: column;
-  }
-  .contact .inner-contact .image,
-  .contact .inner-contact form {
-    width: 100%;
-  }
-  .footer .inner-footer .box {
-    width: 45%;
-    text-align: right;
-  }
-    header{
-    position: relative
-}
-}
 }
