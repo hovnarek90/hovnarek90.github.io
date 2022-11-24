@@ -582,12 +582,13 @@ section {
   html {
     font-size: 55%;
   }
-  .heading {
+  .heading{
     width: 100%;
   }
 }
 
 @media (max-width: 768px) {
+
   #menu-bar {
     display: initial;
   }
@@ -615,12 +616,11 @@ section {
     margin: 1.5rem 0px;
     padding: 1.5rem;
   }
+  header{
+    position: relative
 }
 
 @media (max-width: 500px) {
-  .heading {
-    width: 105%;
-  }
   .book .inner_book {
     flex-direction: column;
   }
@@ -660,4 +660,8 @@ section {
     width: 45%;
     text-align: right;
   }
+    header{
+    position: relative
+}
+}
 }
