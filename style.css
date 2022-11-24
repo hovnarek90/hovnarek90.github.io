@@ -450,6 +450,11 @@ section {
 
 /* ========review======= */
 
+.review .container {
+  width: 100%;
+  overflow: hidden;
+}
+
 .review .review-slider .box {
   padding: 2rem;
   text-align: center;
@@ -528,6 +533,10 @@ section {
 .brand {
   text-align: center;
 }
+.brand .container {
+  width: 100%;
+  overflow: hidden;
+}
 /* footer */
 
 .footer {
@@ -570,22 +579,21 @@ section {
   font-size: 2rem;
 }
 @media (max-width: 1200px) {
-
   html {
     font-size: 55%;
   }
-  .heading{
+  .heading {
     width: 100%;
   }
 }
 
-
 @media (max-width: 768px) {
-
   #menu-bar {
     display: initial;
   }
-
+  .heading {
+    width: 105%;
+  }
   .navbar {
     position: absolute;
     top: 100%;
@@ -610,6 +618,9 @@ section {
 }
 
 @media (max-width: 500px) {
+  .heading {
+    width: 105%;
+  }
   .book .inner_book {
     flex-direction: column;
   }

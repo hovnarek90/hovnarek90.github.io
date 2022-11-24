@@ -17,7 +17,7 @@ window.onscroll = () => {
 
 //  ondblclick
 window.onclick = (e) => {
- // console.log("EVENT", e.target);
+  // console.log("EVENT", e.target);
   if (e.target.classList.contains("login-form-container")) {
     loginForm.classList.remove("active");
   }
@@ -91,3 +91,4 @@ var swiper = new Swiper(".brand-slider", {
     },
   },
 });
+
