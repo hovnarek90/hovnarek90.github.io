@@ -657,10 +657,13 @@ section {
     }
     .footer .inner-footer .box {
       width: 45%;
-      text-align: right;
+      text-align: center;
     }
     header {
       position: relative;
+    }
+    .heading {
+      width: 110%;
     }
   }
 }
